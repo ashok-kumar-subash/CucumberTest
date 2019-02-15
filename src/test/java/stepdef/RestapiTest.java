@@ -7,7 +7,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 import java.util.List;
-import java.util.ListIterator;
 
 
 public class RestapiTest {
