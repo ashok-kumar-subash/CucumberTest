@@ -25,6 +25,18 @@ public class ArrayListTest {
         System.out.println(obj);
         Collections.reverse(obj);
         System.out.println(obj);
+
+        LinkedList<String> linkedObj = new LinkedList<String>(obj);
+        System.out.println("Linked List");
+        System.out.println(linkedObj);
+        String[] arrayobj = linkedObj.toArray(new String[linkedObj.size()]);
+        System.out.println("Array ");
+        for (String a:arrayobj){
+            System.out.println(a);
+        }
+
+
+
     }
 
 
